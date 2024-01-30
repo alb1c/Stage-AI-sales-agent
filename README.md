@@ -1,1 +1,1 @@
-# stage-ia
+# stage-ai-sales-agent
