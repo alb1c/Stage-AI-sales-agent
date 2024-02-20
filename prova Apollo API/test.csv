@@ -1,11 +1,4 @@
-,first_name,last_name,id,title,email,linkedin_url,organization_name,updated_at
-0,Eric,Sansonny,6116bfaebcdcde0001297562,General Manager,eric.sansonny@staff.aruba.it,http://www.linkedin.com/in/ericsansonny,Aruba,
-1,Nicholas,Rowlinson,647b5c8e30caa10001395bf4,"Senior Manager, Sales - UK, Nordics & SA",nicholas.rowlinson@eidosmedia.com,http://www.linkedin.com/in/nicholas-rowlinson-770b4289,Eidosmedia,
-2,Stefan,Bresslauer,5f929aa6fd62c60001f989e3,General Manager DACH,stefan.bresslauer@eidosmedia.com,http://www.linkedin.com/in/stefanbresslauer,QITS GmbH,
-3,Jancarlo,Nesto,54a4552c7468693442ed423f,General Manager at EidosMedia,jancarlo.nesto@eidosmedia.com,http://www.linkedin.com/in/jancarlo-nesto-10829515,EidosMedia,
-4,Stefano,Sordi,6116bdaed9fad800013aaf42,General Manager Online,stefano.sordi@staff.aruba.it,http://www.linkedin.com/in/stefanosordi,Aruba SpA,
-5,Guillaume,Clement,57d4af4ea6da9853f5432b31,General Manager France,guillaume.clement@eidosmedia.com,http://www.linkedin.com/in/guillaume-clement-065718,Eidosmedia,
-6,Vivian,Xu,60ffc90fd364340001c6f4bc,"General Manager, APAC",vivian.xu@eidosmedia.com,http://www.linkedin.com/in/vivianxu2,"Smart Team Global, LLC",
-7,Alberto,Voltan,54c185847468697af794041c,Key account sales manager,,http://www.linkedin.com/in/alberto-voltan-28a91225,Aruba S.p.A.,
-8,Ken,Weeks,6048da394e9e3100015a5556,"Manager, Sales",kenneth.weeks@eidosmedia.com,http://www.linkedin.com/in/kenweeks,Eidosmedia,
-9,Luke,Webb,631dc87fc90fd10001bcdaf7,Deputy General Manager,,http://www.linkedin.com/in/luke-webb-919572234,Aruba,
+,first_name,last_name,name,id,title,email,linkedin_url,organization_name,anni di lavoro,jobListCount
+0,Alessandro,Capitolo,Alessandro Capitolo,64b9892f4c14f40001735b2b,Co-Founder,email_not_unlocked@domain.com,http://www.linkedin.com/in/alessandro-capitolo,Volcanic Minds Srl,11,Co-Founder:1;Senior User Interface Engineer:2;Frontend Web Developer:1;User Interface Engineer:1;UX Designer:1;
+1,Riccardo,Recalchi,Riccardo Recalchi,60ec0500656a270001020742,Chief Executive Officer,email_not_unlocked@domain.com,http://www.linkedin.com/in/recalchi,Synesthesia,23,Chief Executive Officer:1;Partner & Board Member:1;Partner:2;Partner and Board Member:1;Partner / VP Operations & Finance / Sales & Business Development Director:1;Partner/CFO/Business Developer:1;Co founder  - Software Development Manager:1;Developers Team Coordinator:1;Docente:1;
+2,Davide,Dispenza,Davide Dispenza,610c1340658c9d0001f4a977,Co-fondatore,email_not_unlocked@domain.com,http://www.linkedin.com/in/davidedispenza,Volcanic Minds Srl,19,"Co-fondatore:1;CTO:1;Senior Frontend Developer:1;Team leader:1;Analista programmatore:1;Analista Programmatore presso Seat Pagine Gialle:1;Tesista, Master Thesis in BPMN:1;Java Programming and code testing:1;C Programmer, Stage:1;"
