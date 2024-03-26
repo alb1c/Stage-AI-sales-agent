@@ -55,7 +55,7 @@ url = "https://api.apollo.io/v1/mixed_people/search"
 
 data = {
     "api_key": "rtafI-P97XlEJloSfTJ43A",
-    "q_organization_domains": "volcanicminds.com\nsynesthesia.it",  # SV con \n
+    "q_organization_domains": "volcanicminds.com\nhttps://adoratorio.studio/",  # SV con \n
     "page": 1,
     "per_page": 50,
     "organization_locations": ["Italy"],
@@ -181,8 +181,8 @@ for peopleDict in listOfFilteredPeopleDict:
     print(peopleDict)
 
 # csv
-df = pd.DataFrame(listOfFilteredPeopleDict)
-df.to_csv('test.csv')
+# df = pd.DataFrame(listOfFilteredPeopleDict)
+# df.to_csv('test.csv')
 
 # airtable
 api = Api('patJOb9tIJFKIWWgY.b819e373ca873b166c123d2f45128d9b26ae2f59ee8621c4a048c65f2a685bac')
