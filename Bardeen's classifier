@@ -1,0 +1,9 @@
+These are the descriptions used by Bardeen's classifier to give the correct label:
+
+consultancy company
+A consultancy company is a firm of experts providing professional advice to an organization for a fee. This includes companies that offer tailor-made solutions and services such as product development, technology consultancy, and design consultancy. They guide clients through every step of the software development process, provide ongoing support after deployment, and have expertise in various domains. They are often involved in enhancing clients' online presence and helping them achieve their business goals. They are prepared to work with clients to create innovative and scalable solutions that meet
+
+IT company
+An IT (information technology) company primarily oversees the use of devices storing, retrieving, and sending information. They do extensive work behind the scenes, ensuring that computers and other technology systems are functioning optimally. IT companies enable organizations to leverage systems and devices to keep operations running smoothly. They assist teams in accessing information, facilitating communication, and automating tasks through technology. However, if a company also offers tailor-made solutions and consultancy services, especially when these services are not strictly IT-related, it
+
+A non IT company is a firm that primarily offers services or products unrelated to information technology, such as manufacturing, healthcare, finance, and more. This category does not include companies that may offer some IT-related services. However, if a company offers a majority of services that are IT-related but also provides tailor-made solutions and consultancy services, it should be classified under the consultancy company.
