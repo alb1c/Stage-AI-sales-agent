@@ -3,6 +3,7 @@ import json
 import pandas as pd
 import requests
 
+from airtable_to_json import *
 from dateutil.relativedelta import relativedelta
 from pyairtable import Api
 
@@ -51,11 +52,20 @@ print(response.headers)
                       ]
 """
 
+q_organization_domains = ""
+list_of_companies_dicts = get_companies_info()
+for company_dict in list_of_companies_dicts:
+    uff_cam_url = company_dict['url']
+    company_url = uff_cam_url.split("+")[2]
+    q_organization_domains = q_organization_domains + company_url + "\n"
+
 url = "https://api.apollo.io/v1/mixed_people/search"
+
+# creo meccanismo per evitare duplicati per risparmiare crediti
 
 data = {
     "api_key": "rtafI-P97XlEJloSfTJ43A",
-    "q_organization_domains": "volcanicminds.com\nhttps://adoratorio.studio/",  # SV con \n
+    "q_organization_domains": q_organization_domains,  # SV con \n
     "page": 1,
     "per_page": 50,
     "organization_locations": ["Italy"],
@@ -190,7 +200,7 @@ table = api.table('appgT3WMtNOvBcQSo', 'Leads info')
 
 for peopleDict in listOfFilteredPeopleDict:
     exDict = peopleDict
-    table.create(exDict)
+    table.create(exDict)  # Create a new record
 
 """
     People API non permette di accedere alle mail personali.
