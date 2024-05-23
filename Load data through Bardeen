@@ -1,0 +1,17 @@
+The first step is to insert the list of companies' domain URL in the source url mini Google Sheet at Page 2.
+The fields in Page 1 will create the google search url we need for the second step.
+
+The next step is to run the playbook named Pipeline_companies_Apollo.
+  It starts to acquire companies' information, which urls are specified at previous steps, through Apollo: a web app for data enrichment.
+  After acquiring the information, we classifiy the company, assigning a type among: IT, non IT, consultancy.
+  Then data scraping from ufficiocamerale.it is done as scraping utilizing the google search urls.
+  
+  Having all of the data so far, we construct the table with companies' name and their informations.
+  Rows are added to existing airtable's base.
+
+The next macro step is to extract employees' informations from the companies that we have using Python.
+  This is done also through an Apollo API call named "Mixed People Search".
+  In the request's body we specify the organizations' domanis and the job position to filter the employees we're interested in.
+  The python script parses the data creates a comprehensive table using the response's JSON.
+  Field such as working_years and job_list are created manually.
+  The table mentioned (or the rows) are integrated in the same airtable base in a different view (companies and leads data are separated).
