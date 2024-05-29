@@ -6,12 +6,11 @@ def get_employees_info():
     table = api.table('appgT3WMtNOvBcQSo', 'Leads info')
 
     list_of_dict_row = table.all()
-    print(list_of_dict_row)
     list_of_worker_dict = []
     for row in list_of_dict_row:
         unfiltered_row = row['fields']
-        filtered_row = {k: unfiltered_row[k] for k in ('name', "anni di lavoro", "Job List",
-                                                       'education', "title", "organization_name", "Formazione") if
+        filtered_row = {k: unfiltered_row[k] for k in ('id', 'name', "anni di lavoro", "Job List",
+                                                       'education', "title", "organization_name_short", "Formazione") if
                         k in unfiltered_row}
         list_of_worker_dict.append(filtered_row)
 
@@ -28,7 +27,8 @@ def get_companies_info():
 
     for row in list_of_dict_row:
         unfiltered_row = row['fields']
-        filtered_row = {k: unfiltered_row[k] for k in ('Nome', "url", "Keywords", "categoria", "Riassunti") if
+        filtered_row = {k: unfiltered_row[k] for k in ('Nome', 'nome_short', 'ID', "url",
+                                                       "website_url", "Keywords", "categoria", "Riassunti") if
                         k in unfiltered_row}
         list_of_company_dict.append(filtered_row)
 
