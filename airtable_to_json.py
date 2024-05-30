@@ -30,6 +30,7 @@ def get_companies_info():
         filtered_row = {k: unfiltered_row[k] for k in ('Nome', 'nome_short', 'ID', "url",
                                                        "website_url", "Keywords", "categoria", "Riassunti") if
                         k in unfiltered_row}
+        filtered_row['categoria'] = filtered_row.get('categoria', 'Default Category')
         list_of_company_dict.append(filtered_row)
 
     # for company in list_of_company_dict:
