@@ -154,7 +154,7 @@ for i in range(5):
     #            temperature=1
     #        )
     #        time.sleep(3)
-            # Get the response from the completion
+            # Get the response from terthe completion
     #        llm_response = chat_completion.choices[0].message.content
     #        print(llm_response)
     #        print("\n")

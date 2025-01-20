@@ -68,16 +68,20 @@ def create_message_data(company, company_type, company_data, lead, lead_title, l
     return new_message_dict
 
 
+
 model_list = ["mixtral-8x7b-32768", "llama3-8b-8192", "llama3-70b-8192", "llama-3.3-70b-versatile", "gemma-7b-it", "gemma2-9b-it"]
 client = Groq(
         api_key='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',
     )
+
+
 
 """
 for groq_model in model_list:
     df = pd.DataFrame([company_messages_dict])  # list of dict as param
     df.to_csv(groq_model + '.csv', mode='w')
 
+    
 
 messages = [
     {
@@ -94,7 +98,6 @@ company_lut = dict()
 
 gold_text = """" Sono Davide Morra co-founder di Volcanic Minds, una digital tech company che si occupa di soluzioni IT tailor-made (cloud, app, web, design). 
 Le scrivo per entrare in contatto con XXX per future collaborazioni e perché trovo interessante il suo canale e i suoi contenuti."""
-
 
 for employee_dict in employee_dict_list:
     if employee_dict['name'] == 'Davide Morra':
